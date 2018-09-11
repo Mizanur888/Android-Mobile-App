@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "799269025626",
+    "firebase_url": "https://ecomerssiteclassproject.firebaseio.com",
+    "project_id": "ecomerssiteclassproject",
+    "storage_bucket": "ecomerssiteclassproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:799269025626:android:84509604ad178559",
+        "android_client_info": {
+          "package_name": "com.example.rahmanm2.ecomerssiteclassprojectfinal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "799269025626-js6400l3s24511epqnp37hi4lclmr0nj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rahmanm2.ecomerssiteclassprojectfinal",
+            "certificate_hash": "60f651aa6dd82117d3dfbda60fa8397598506dc7"
+          }
+        },
+        {
+          "client_id": "799269025626-v94rova8jhbe3e5rmdqarkqq7gpi8lfr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOIMhanlxahZt7I46lvynmShaXGBROzKc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "799269025626-v94rova8jhbe3e5rmdqarkqq7gpi8lfr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:799269025626:android:e59a7c89ff303888",
+        "android_client_info": {
+          "package_name": "com.example.rahmanm2.ecomerssitefinalproject.App"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "799269025626-g20i2mke5qvbqnl6b9uq0g0f6m44t4n3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rahmanm2.ecomerssitefinalproject.App",
+            "certificate_hash": "60f651aa6dd82117d3dfbda60fa8397598506dc7"
+          }
+        },
+        {
+          "client_id": "799269025626-v94rova8jhbe3e5rmdqarkqq7gpi8lfr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOIMhanlxahZt7I46lvynmShaXGBROzKc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "799269025626-v94rova8jhbe3e5rmdqarkqq7gpi8lfr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
