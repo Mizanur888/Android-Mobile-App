@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/AuctionNavID"
+        android:title="Auction">
+        <menu>
+            <item
+                android:id="@+id/idAuction"
+                android:checkable="true"
+                android:title="Create Sale"
+                android:icon="@drawable/ic_add_black_24dp"/>
+            <item
+
+                android:id="@+id/idBooks"
+                android:checkable="true"
+                android:title="Image"
+                android:icon="@drawable/ic_shop_black_24dp"/>
+        </menu>>
+    </item>
+     <item
+         android:id="@+id/BuynowNavID"
+         android:title="BuyNow">
+         <menu>
+             <item
+                android:id="@+id/idCloath"
+                android:checkable="true"
+                android:title="Order Status"
+                android:icon="@drawable/ic_add_a_photo_black_24dp"/>
+            <item
+                android:id="@+id/idElectric"
+                android:checkable="true"
+                android:title="Electric"
+                android:icon="@drawable/ic_add_a_photo_black_24dp"/>
+         </menu>>
+    </item>
+    <item
+        android:id="@+id/FinanceItemNavID"
+        android:title="Account Setting">
+        <menu>
+            <item
+                android:id="@+id/idMypurchase"
+                android:checkable="true"
+                android:title="My Purchase"
+                android:icon="@drawable/ic_add_a_photo_black_24dp"/>
+            <item
+                android:id="@+id/idImage"
+                android:checkable="true"
+                android:title="My Sell"
+                android:icon="@drawable/ic_add_a_photo_black_24dp"/>
+            <item
+                android:id="@+id/idExecoris"
+                android:checkable="true"
+                android:title="My Favorite"
+                android:icon="@drawable/ic_add_a_photo_black_24dp"/>
+        </menu>>
+    </item>>
+</menu>

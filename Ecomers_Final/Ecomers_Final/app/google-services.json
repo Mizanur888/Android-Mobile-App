@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "722840370767",
+    "firebase_url": "https://ecomers-91e18.firebaseio.com",
+    "project_id": "ecomers-91e18",
+    "storage_bucket": "ecomers-91e18.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:722840370767:android:4d208a8b153bb999",
+        "android_client_info": {
+          "package_name": "com.example.rahmanm2.ecomers_final"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "722840370767-93balceu3cs3ekgoigfbgefbrdojhilu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rahmanm2.ecomers_final",
+            "certificate_hash": "60f651aa6dd82117d3dfbda60fa8397598506dc7"
+          }
+        },
+        {
+          "client_id": "722840370767-4ojqc7f9ms3koukqs0njtp5mnd6p7vmc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvIAoxbPsf0hKBN1wV3suVzBp3t7wghMQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "722840370767-4ojqc7f9ms3koukqs0njtp5mnd6p7vmc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

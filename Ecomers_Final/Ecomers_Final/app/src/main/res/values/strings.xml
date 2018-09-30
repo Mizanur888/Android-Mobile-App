@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Ecomers</string>
+    <string name="signInText">Best place to eat foods in the world. becuase we are the best we dont set the bar we are the bar</string>
+
+    <string name="HeadernameText">Mizanur Rahman</string>
+    <string name="HeadernameEmail">Mizanur.rahman@inv.com</string>
+    <string name="Draw_Open">Open</string>>
+    <string name="Draw_Closed">Closed</string>
+
+    <string name="wentworth">Hello wentworth</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_product_details">ProductDetailsActivity</string>
+    <string name="rating">Ratting</string>>
+</resources>

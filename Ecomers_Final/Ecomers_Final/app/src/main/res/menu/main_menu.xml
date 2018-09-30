@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/cartID"
+        android:icon="@drawable/ic_add_shopping_cart_black"
+        android:title="Fragment"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/FragmentmenuID"
+        android:icon="@drawable/ic_whatshot_black_24dp"
+        android:title="Fragment"
+        app:showAsAction="ifRoom"/>
+
+</menu>
