@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/AuctionNavID"
+        android:title="North America">
+        <menu>
+            <item
+                android:id="@+id/idUsa"
+                android:checkable="true"
+                android:title="USA FOODS"
+                android:icon="@drawable/ic_add_black_24dp"/>
+            <item
+
+                android:id="@+id/idMexcio"
+                android:checkable="true"
+                android:title="Mexcio"
+                android:icon="@drawable/ic_shop_black_24dp"/>
+            <item
+
+                android:id="@+id/idCanada"
+                android:checkable="true"
+                android:title="Canada"
+                android:icon="@drawable/ic_shop_black_24dp"/>
+        </menu>>
+    </item>
+     <item
+         android:id="@+id/BuynowNavID"
+         android:title="Europian Foods">
+         <menu>
+             <item
+                android:id="@+id/idItalyanFoods"
+                android:checkable="true"
+                android:title="Italyan Foods"
+                android:icon="@drawable/ic_shop_black_24dp"/>
+            <item
+                android:id="@+id/idFranchFoods"
+                android:checkable="true"
+                android:title="Franch Foods"
+                android:icon="@drawable/ic_shop_black_24dp"/>
+         </menu>>
+    </item>
+
+</menu>

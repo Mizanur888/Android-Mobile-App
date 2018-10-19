@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/idmyFavoriteID"
+        android:icon="@drawable/ic_favorite_black"
+        android:title="My Favorite"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/idAccountSetting"
+        android:icon="@drawable/ic_settings_black"
+        android:title="Account Setting"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/idSignOut"
+        android:title="Sign Out"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/idSignIn"
+        android:title="Sign In"
+        android:icon="@drawable/ic_assignment_black"
+        app:showAsAction="ifRoom"/>
+</menu>

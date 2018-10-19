@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/DrawerLayoutID"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".App.FoodsrecipesMainActivity">
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <include
+            android:id="@+id/mainpageToolbarID"
+            layout="@layout/toolbar"/>
+        <FrameLayout
+            android:id="@+id/mainpageLayoutID"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior">
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/mainPageRecyclerID"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </FrameLayout>
+        <android.support.design.widget.BottomNavigationView
+            android:id="@+id/bottomNavID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            app:itemTextColor="@android:color/white"
+            app:itemBackground="@color/bootomColor"
+            app:itemIconTint="@android:color/white"
+            app:elevation="4dp"
+            app:menu="@menu/menu_bottom"/>
+    </RelativeLayout>
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/navigationViewID"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:fitsSystemWindows="true"
+        app:headerLayout="@layout/nav_header_layout"
+        app:itemIconTint="#8c000000"
+        app:itemTextColor="#E6000000"
+        app:menu="@menu/menu_withgroups_name"/>
+
+
+</android.support.v4.widget.DrawerLayout>
