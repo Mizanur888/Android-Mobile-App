@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+        <TextView
+            android:id="@+id/usedName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="User Name"
+            android:padding="10dp"/>
+            <TextView
+               android:gravity="right|end"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Please Give Us Feedback"/>
+        </LinearLayout>>
+    <EditText
+        android:id="@+id/userCommmentsID"
+        android:inputType="textMultiLine"
+        android:lines="5"
+        android:layout_height="70dp"
+        android:layout_width="fill_parent"
+        android:scrollbars="vertical"
+        android:hint="Please Add Comment Here"/>
+     <LinearLayout
+         android:layout_weight="2"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:orientation="horizontal">
+         <RatingBar
+             android:id="@+id/RatinginitialvalueratingID"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:numStars="5"
+             android:stepSize="0.2"
+             android:layout_gravity="right"
+             android:rating="0" />
+         <Button
+             android:id="@+id/btnSubmitComments"
+             android:layout_marginLeft="10dp"
+             android:layout_weight="1"
+             android:layout_width="0dp"
+             android:layout_height="wrap_content"
+             android:background="@color/white_color"
+             android:text="submit" />
+        </LinearLayout>>
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

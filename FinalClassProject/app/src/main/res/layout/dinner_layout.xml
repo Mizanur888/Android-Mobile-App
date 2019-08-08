@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:contentPaddingTop="5dp"
+    app:cardElevation="5dp"
+    app:cardPreventCornerOverlap="true"
+    app:cardBackgroundColor="@color/cardview_dark_background">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/dinnerImageID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/nodols"
+            android:scaleType="centerCrop"
+            android:fitsSystemWindows="true"/>
+        <LinearLayout
+            android:weightSum="10"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_centerInParent="true"
+            android:background="#4f0e0d0e">
+            <TextView
+                android:id="@+id/dinner_item_name"
+                android:text="Item Name"
+                android:textColor="@android:color/white"
+                android:textSize="20sp"
+                android:gravity="left"
+                android:layout_weight="5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textColorHighlight="@color/colorAccent"/>
+
+            <TextView
+                android:id="@+id/dinner_timetomakeID"
+                android:textColor="@color/white_color"
+                android:textSize="20sp"
+                android:textStyle="normal"
+                android:text="34 min"
+                android:layout_weight="4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+            <ImageView
+                android:id="@+id/dinner_favID"
+                android:src="@drawable/ic_favorite_border_black_24dp"
+                android:tint="@android:color/white"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>

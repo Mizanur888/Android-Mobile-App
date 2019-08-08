@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/AuctionNavID"
+        android:title="North America">
+        <menu>
+            <item
+                android:id="@+id/idUsa"
+                android:checkable="true"
+                android:title="USA FOODS"
+                android:icon="@drawable/ic_add_black_24dp"/>
+            <item
+
+                android:id="@+id/idMexcio"
+                android:checkable="true"
+                android:title="Mexcio"
+                android:icon="@drawable/ic_shop_black_24dp"/>
+            <item
+
+                android:id="@+id/idCanada"
+                android:checkable="true"
+                android:title="Canada"
+                android:icon="@drawable/ic_shop_black_24dp"/>
+        </menu>>
+    </item>
+     <item
+         android:id="@+id/BuynowNavID"
+         android:title="Europian Foods">
+         <menu>
+             <item
+                android:id="@+id/idItalyanFoods"
+                android:checkable="true"
+                android:title="Italyan Foods"
+                android:icon="@drawable/ic_shop_black_24dp"/>
+            <item
+                android:id="@+id/idFranchFoods"
+                android:checkable="true"
+                android:title="Franch Foods"
+                android:icon="@drawable/ic_shop_black_24dp"/>
+         </menu>>
+    </item>
+    -<item android:title="Account Information">
+
+
+    -<menu>
+
+    <item android:title="My Favorites"
+        android:icon="@drawable/ic_favorite_black"
+        android:id="@+id/idmyFavoriteID"/>
+
+    <item android:title="My Recipes"
+        android:icon="@drawable/ic_assignment_black"
+        android:id="@+id/idMyrecipesID"/>
+
+    <item android:title="Settings"
+        android:icon="@drawable/ic_settings_black"
+        android:id="@+id/idAccountSetting"/>
+
+    <item
+        android:id="@+id/idSignIn"
+        android:icon="@drawable/ic_screen_lock_portrait_black_24dp"
+        android:title="Sign In"
+        />
+    <item android:title="Sign out"
+        android:icon="@drawable/ic_screen_lock_portrait_black_24dp"
+        android:id="@+id/idSignOut"/>
+
+</menu>
+
+</item>
+
+</menu>

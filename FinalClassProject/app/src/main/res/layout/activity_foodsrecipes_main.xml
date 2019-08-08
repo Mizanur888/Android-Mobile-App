@@ -9,22 +9,47 @@
     android:fitsSystemWindows="true"
     tools:context=".App.FoodsrecipesMainActivity">
     <RelativeLayout
-
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
         <include
             android:id="@+id/mainpageToolbarID"
             layout="@layout/toolbar"/>
+        <ScrollView
+            android:layout_below="@+id/mainpageToolbarID"
+            android:id = "@+id/searchScrollID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <com.mancj.materialsearchbar.MaterialSearchBar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/MenuSearchBarID"
+                android:layout_alignParentTop="true"
+                app:mt_speechMode="false"
+                app:mt_hint="Enter Your Items Name"
+                android:scrollbars="vertical"/>
+        </ScrollView>
         <FrameLayout
             android:id="@+id/mainpageLayoutID"
+            android:layout_below="@+id/searchScrollID"
+            android:layout_above="@+id/bottomNavID"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             app:layout_behavior="@string/appbar_scrolling_view_behavior">
             <android.support.v7.widget.RecyclerView
-                android:id="@+id/mainPageRecyclerID"
+                android:id="@+id/mainVerticalPageRecyclerID"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"/>
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/voiceSearch"
+                android:src="@drawable/ic_keyboard_voice_black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|end"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="8dp"
+                android:background="#607D8B"/>
         </FrameLayout>
         <android.support.design.widget.BottomNavigationView
             android:id="@+id/bottomNavID"
@@ -32,7 +57,7 @@
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             app:itemTextColor="@android:color/white"
-            app:itemBackground="@color/bootomColor"
+            app:itemBackground="@drawable/button_background"
             app:itemIconTint="@android:color/white"
             app:elevation="4dp"
             app:menu="@menu/menu_bottom"/>
